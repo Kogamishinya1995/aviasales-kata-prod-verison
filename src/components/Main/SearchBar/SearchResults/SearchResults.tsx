@@ -75,7 +75,7 @@ const SearchResults = () => {
             ))}
         </ul>
       ) : (
-        !error && loadingStatus !== "loading" && <p>No tickets found</p>
+        !error && loadingStatus !== "loading" && <p>Подходящие билеты не найдены</p>
       )}
       <div className="search-bar__button">
         <Button
