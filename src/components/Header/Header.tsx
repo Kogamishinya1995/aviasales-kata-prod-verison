@@ -1,6 +1,6 @@
 const Header = () => (
     <div className="header">
-      <img src="src\components\Header\Logo.png" alt="" />
+      <img src="https://i.imgur.com/jR05rAV.png" alt="" />
     </div>
   );
   

@@ -1,5 +1,5 @@
-import SearchBar from "./SearchBar/SearchBar";
-import Transfers from "./Transfers/Transfers";
+import SearchBar from "./searchBar/SearchBar";
+import Transfers from "./transfers/Transfers";
 
 const Main = () => (
   <div className="main">

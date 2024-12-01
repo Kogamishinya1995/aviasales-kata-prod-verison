@@ -1,5 +1,5 @@
 import sortBy from "lodash/sortBy";
-import { TicketType } from "@AppTypes/commonTypes";
+import { TicketType } from "../types";
 
 const priceWeight = 0.7;
 const durationWeight = 0.3;

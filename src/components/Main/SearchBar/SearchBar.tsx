@@ -1,5 +1,5 @@
 import Filters from "./Filters/Filters";
-import SearchResults from "./SearchResults/SearchResults";
+import SearchResults from "./searchResults/SearchResults";
 
 const SearchBar = () => (
   <div className="search-bar">

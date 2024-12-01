@@ -1,4 +1,4 @@
-import { TransfersState } from "@AppTypes/commonTypes";
+import { TransfersState } from "../types";
 
 function getUniqueTransfers(filterObject: TransfersState): number[] {
   const keyMap: Record<string, number> = {

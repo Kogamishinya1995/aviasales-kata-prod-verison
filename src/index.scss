@@ -1,9 +1,8 @@
-@import './components/Header/header.scss';
-@import './components/Main/main.scss';
-@import './components/Main/Transfers/transfers.scss';
-@import './components/Main/SearchBar/search-bar.scss';
-@import './components/Main/SearchBar/SearchResults/Ticket/ticket.scss';
-
+@import './components/header/header';
+@import './components/main/main';
+@import './components/main/transfers/transfers';
+@import './components/main/searchBar/searchBar';
+@import './components/main/searchBar/searchResults/ticket/ticket';
 body {
   margin: 0;
   padding: 0;

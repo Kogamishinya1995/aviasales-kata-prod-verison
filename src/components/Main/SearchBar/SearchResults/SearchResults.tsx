@@ -5,10 +5,10 @@ import BeatLoader from "react-spinners/BeatLoader";
 import { TicketType } from "../../../../types.ts";
 import getUniqueTransfers from "../../../../utils/getUniqueTransfers.ts";
 import sortedTickets from "../../../../utils/sortedTickets.ts";
-import Ticket from "./Ticket/Ticket";
+import Ticket from "./ticket/Ticket.tsx";
 import { RootState, AppDispatch } from "../../../../slices/index";
-import { fetchSearchId } from "../../../../slices/ticketsSlice";
-import { fetchAllTickets } from "../../../../utils/fetchAllTickets";
+import { fetchSearchId } from "../../../../slices/ticketsSlice.ts";
+import { fetchAllTickets } from "../../../../utils/fetchAllTickets.ts";
 
 const SearchResults = () => {
   const dispatch: AppDispatch = useDispatch();
