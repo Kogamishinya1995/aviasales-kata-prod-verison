@@ -49,6 +49,12 @@ const SearchResults = () => {
 
   const [ticketsNumber, setTicketsNumber] = useState(5);
 
+  const override = {
+    display: "flex",
+    marginLeft: "auto",
+    marginRight: "auto",
+  };
+
   return (
     <div className="search-bar__results-container">
       {loadingStatus === "loading" && (
@@ -60,6 +66,7 @@ const SearchResults = () => {
             data-testid="loader"
             loading={true}
             speedMultiplier={1}
+            cssOverride={override}
           />
         </div>
       )}

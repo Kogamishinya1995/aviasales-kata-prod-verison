@@ -22,14 +22,40 @@ const Filters = () => {
       onChange={handleChange}
       aria-label="text alignment"
       className="search-bar__filters"
+      sx={{
+        display: "flex",
+        justifyContent: "center",
+        gap: 1,
+      }}
     >
-      <ToggleButton value="cheepest" aria-label="left aligned">
+      <ToggleButton
+        value="cheepest"
+        aria-label="left aligned"
+        sx={{
+          fontSize: { xs: "10px", sm: "16px" },
+          textTransform: "none",
+        }}
+      >
         самый дешевый
       </ToggleButton>
-      <ToggleButton value="fastest" aria-label="centered">
+      <ToggleButton
+        value="fastest"
+        aria-label="centered"
+        sx={{
+          fontSize: { xs: "10px", sm: "16px" },
+          textTransform: "none",
+        }}
+      >
         самый быстрый
       </ToggleButton>
-      <ToggleButton value="optimal" aria-label="right aligned">
+      <ToggleButton
+        value="optimal"
+        aria-label="right aligned"
+        sx={{
+          fontSize: { xs: "10px", sm: "16px" },
+          textTransform: "none",
+        }}
+      >
         оптимальный
       </ToggleButton>
     </ToggleButtonGroup>
