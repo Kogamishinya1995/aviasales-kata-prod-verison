@@ -82,13 +82,16 @@ const SearchResults = () => {
             ))}
         </ul>
       ) : (
-        !error && loadingStatus !== "loading" && <p>Подходящие билеты не найдены</p>
+        !error && loadingStatus !== "loading" && <div className="search-bar__no-result-tab"><p>Подходящие билеты не найдены</p></div>
       )}
       <div className="search-bar__button">
         <Button
           variant="contained"
           color="primary"
           onClick={() => {
+            if (ticketsNumber > filteredTickets.length) {
+              alert('Билетов больше нет!');
+            }
             setTicketsNumber(ticketsNumber + 5);
           }}
           sx={{ marginTop: 2 }}

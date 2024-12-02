@@ -39,6 +39,9 @@ text-align: left;
 text-underline-position: from-font;
 text-decoration-skip-ink: none;
     }
+    &:hover {
+        background: #F1FCFF;
+    }
 }
 
 @media screen and (min-width: 768px) {
