@@ -12,7 +12,7 @@ const Transfers = () => {
 
   return (
     <div className="transfer-bar">
-      <h2>Количество пересадок</h2>
+      <h2>количество пересадок</h2>
       <Formik
         initialValues={{
           transferAll: transferState.allTransfers,

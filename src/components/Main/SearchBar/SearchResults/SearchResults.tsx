@@ -84,7 +84,7 @@ const SearchResults = () => {
       ) : (
         !error && loadingStatus !== "loading" && <div className="search-bar__no-result-tab"><p>Подходящие билеты не найдены</p></div>
       )}
-      <div className="search-bar__button">
+      { filteredTickets.length > 0 ? ( <div className="search-bar__button">
         <Button
           variant="contained"
           color="primary"
@@ -98,7 +98,7 @@ const SearchResults = () => {
         >
           Показать еще 5 билетов
         </Button>
-      </div>
+      </div> ) : null }
     </div>
   );
 };

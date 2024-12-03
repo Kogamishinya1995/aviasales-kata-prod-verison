@@ -7,13 +7,12 @@
   margin-right: 30px;
   width: 85vw;
   border-radius: 0px;
-  border: 0.5px solid #DCDCDC;
 background: #ffffff;
 box-shadow:  -15px 15px 30px #d4d4d4,
              15px -15px 30px #ffffff;
   img {
     width: 30vw;
-    height: 10vh;
+    height: 100%;
     padding-right: 10px;   
   }
 }
@@ -83,10 +82,11 @@ color: #4A4A4A;
 
 @media screen and (min-width: 768px) {
   .ticket {
-      width: 60vw;
+      width: 55vw;
+      margin-left: 15vh;
       img {
-        width: 20vw;
-        height: 10vh;
+        width: auto;
+    height: 100%;
       }
 }
 .ticket__segment-header p,
@@ -100,10 +100,6 @@ color: #4A4A4A;
 @media screen and (min-width: 1024px) {
   .ticket {
       width: 45vw;
-      img {
-        width: 15vw;
-        height: 10vh;
-      }
 }
 .ticket__segment-header p,
 .ticket__segment-content p {
@@ -114,10 +110,6 @@ color: #4A4A4A;
 @media screen and (min-width: 1440px) {
   .ticket {
       width: 30vw;
-      img {
-        width: 10vw;
-        height: 10vh;
-      }
 }
 }
 
@@ -125,9 +117,5 @@ color: #4A4A4A;
 @media screen and (min-width: 2560px) {
   .ticket {
       width: 20vw;
-      img {
-        width: 5vw;
-        height: 10vh;
-      }
 }
 }

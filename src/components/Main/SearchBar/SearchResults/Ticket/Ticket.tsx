@@ -24,7 +24,7 @@ const Ticket = ({ ticket }: TicketProps) => (
   <div className="ticket">
     <div className="ticket_header">
       <p className="ticket__price">{`${ticket.price.toString()} Р`}</p>
-      <img src={`http://pics.avs.io/200/200/${ticket.carrier}.png`} alt="" />
+      <img src={`http://pics.avs.io/100/100/${ticket.carrier}.png`} alt="" />
     </div>
     {ticket.segments.map((item) => (
       <div className="ticket__segment" key={uniqueId("ticket_segment_")}>
