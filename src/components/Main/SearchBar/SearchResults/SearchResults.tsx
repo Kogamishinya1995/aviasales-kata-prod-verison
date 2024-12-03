@@ -82,7 +82,7 @@ const SearchResults = () => {
             ))}
         </ul>
       ) : (
-        !error && loadingStatus !== "loading" && <div className="search-bar__no-result-tab"><p>Подходящие билеты не найдены</p></div>
+        !error && loadingStatus !== "loading" && <div className="search-bar__no-result-tab"><p>Рейсов, подходящих под заданные фильтры, не найдено</p></div>
       )}
       { filteredTickets.length > 0 ? ( <div className="search-bar__button">
         <Button

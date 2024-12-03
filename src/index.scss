@@ -1,8 +1,8 @@
-@import './components/header/header';
-@import './components/main/main';
-@import './components/main/transfers/transfers';
-@import './components/main/searchBar/searchBar';
-@import './components/main/searchBar/searchResults/ticket/ticket';
+@use './components/header/header';
+@use './components/main/main';
+@use './components/main/transfers/transfers';
+@use './components/main/searchBar/searchBar';
+@use './components/main/searchBar/searchResults/ticket/ticket';
 body {
   margin: 0;
   padding: 0;
